@@ -5,6 +5,12 @@
       fzf-native.enable = true;
       manix.enable = true;
     };
+    settings = {
+      defaults.mappings.i."<esc>" = "close";
+      pickers = {
+        buffers.sort_mru = true;
+      };
+    };
     keymaps = {
       "<leader>ff" = {
         action = "find_files";
@@ -17,6 +23,10 @@
       "<leader>r" = {
         action = "live_grep";
         options.desc = "Grep (respect .gitignore)";
+      };
+      "<leader>b" = {
+        action = "buffers";
+        options.desc = "Buffers";
       };
       "<leader>fr" = {
         action = "resume";
@@ -45,6 +55,13 @@
     };
   };
   dependencies = {
-    manix.enable = config.plugins.telescope.extensions.manix.enable;
+    manix = {
+      enable = true;
+      packageFallback = true;
+    };
+    ripgrep = {
+      enable = true;
+      packageFallback = true;
+    };
   };
 }

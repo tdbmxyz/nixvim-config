@@ -21,5 +21,6 @@
 
   plugins = {
     gitmessenger.enable = true;
+    vim-surround.enable = true;
   };
 }

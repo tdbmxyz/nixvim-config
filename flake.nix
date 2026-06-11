@@ -1,5 +1,5 @@
 {
-  description = "Dry";
+  description = "tdbmxyz's NixVim configuration";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

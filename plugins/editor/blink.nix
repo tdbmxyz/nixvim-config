@@ -30,9 +30,9 @@
           default = [
             "lsp"
             "path"
-            "buffer"
             "ripgrep"
           ];
+          # "buffer"
         };
 
         cmdline = {
@@ -47,7 +47,7 @@
 
           trigger = {
             prefetch_on_insert = true;
-            show_on_backscpace = true;
+            show_on_backspace = true;
             show_in_snippet = false;
           };
 
@@ -77,7 +77,7 @@
             "score"
             "sort_text"
           ];
-          prebuild_binaries.download = false;
+          prebuilt_binaries.download = false;
         };
 
         keymap.preset = "super-tab";

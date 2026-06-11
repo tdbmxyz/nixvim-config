@@ -47,5 +47,15 @@
       mode = ["n"];
       action = "<cmd>nohlsearch<CR>";
     }
+    {
+      key = "<leader>|";
+      mode = ["i" "n"];
+      action = "<cmd>vsp<CR>";
+    }
+    {
+      key = "<leader>_";
+      mode = ["i" "n"];
+      action = "<cmd>sp<CR>";
+    }
   ];
 }

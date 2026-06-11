@@ -5,10 +5,5 @@
     #   command = "Neotree show";
     #   event = "VimEnter";
     # }
-    # {
-    #   desc = "Launch the last session";
-    #   command = "function() require(\"persistence\").load() end";
-    #   event = ["VimEnter"];
-    # }
   ];
 }

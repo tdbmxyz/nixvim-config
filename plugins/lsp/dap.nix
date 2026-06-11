@@ -2,4 +2,4 @@
   plugins = {
     dap.enable = true;
   };
-};
+}
