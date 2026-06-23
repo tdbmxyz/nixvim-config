@@ -49,12 +49,12 @@
     }
     {
       key = "<leader>|";
-      mode = ["i" "n"];
+      mode = ["n"];
       action = "<cmd>vsp<CR>";
     }
     {
       key = "<leader>_";
-      mode = ["i" "n"];
+      mode = ["n"];
       action = "<cmd>sp<CR>";
     }
   ];
