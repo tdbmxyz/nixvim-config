@@ -14,5 +14,9 @@
 
   lsp = {
     inlayHints.enable = true;
+
+    servers = {
+      rust_analyer.enable = true;
+    };
   };
 }
