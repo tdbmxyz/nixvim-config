@@ -15,7 +15,8 @@
 
     loaded_ruby_provider = 0;
     loaded_perl_provider = 0;
-    loaded_python_provider = 0;
+    loaded_python3_provider = 0;
+    loaded_node_provider = 0;
   };
 
   opts = {
@@ -33,6 +34,7 @@
     cmdheight = 0;
 
     # Tabs / Indents
+    expandtab = true;
     shiftwidth = 2;
     tabstop = 2;
     smartindent = true;
@@ -49,6 +51,16 @@
 
     # Auto re-read a changed file
     autoread = true;
+
+    # Persistent undo across sessions
+    undofile = true;
+
+    # Always show the sign column so text does not shift
+    signcolumn = "yes";
+
+    # Open new splits to the right / below
+    splitright = true;
+    splitbelow = true;
 
     # Number of suggestions in completion popup
     pumheight = 10;

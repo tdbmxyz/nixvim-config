@@ -31,15 +31,6 @@
         desc = "Cycle to previous buffer";
       };
     }
-    # {
-    #   mode = "n";
-    #   key = "<leader>bl";
-    #   action = "<cmd>BufferLineCloseLeft<cr>";
-    #   options = {
-    #     desc = "Delete buffers to the left";
-    #   };
-    # }
-
     {
       mode = "n";
       key = "<leader>bo";

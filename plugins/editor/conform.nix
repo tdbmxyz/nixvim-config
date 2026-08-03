@@ -22,7 +22,7 @@
     };
   };
 
-  keymaps = lib.optionals config.plugins.conform-nvim.enable [
+  keymaps = lib.mkIf config.plugins.conform-nvim.enable [
     {
       action.__raw = ''
         function(args)
