@@ -45,7 +45,7 @@
         options.desc = "List LSP references";
       };
       "<leader>sd" = {
-        action = "lsp_diagnostics";
+        action = "diagnostics";
         options.desc = "List LSP diagnostics";
       };
       "<leader>n" = {

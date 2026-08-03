@@ -30,10 +30,13 @@
           default = [
             "lsp"
             "path"
+            "snippets"
             "ripgrep"
           ];
           # "buffer"
         };
+
+        snippets.preset = "luasnip";
 
         cmdline = {
           completion = {

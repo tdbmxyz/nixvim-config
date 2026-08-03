@@ -4,5 +4,6 @@
     ./theme
     ./lsp
     ./ui
+    ./util
   ];
 }

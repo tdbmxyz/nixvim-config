@@ -11,8 +11,8 @@
       settings = {
         default_format_opts.lsp_format = "fallback";
         format_on_save = {
-          lspFallback = true;
-          timeoutMs = 500;
+          lsp_format = "fallback";
+          timeout_ms = 500;
         };
       };
       lazyLoad.settings = {
