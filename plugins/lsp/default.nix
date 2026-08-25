@@ -4,6 +4,7 @@
     ./lsp-signature.nix
     ./luasnip.nix
     ./nix.nix
+    ./python.nix
   ];
 
   plugins = {

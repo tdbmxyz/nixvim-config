@@ -1,20 +1,12 @@
-{
+{lib, ...}: {
   plugins.hardtime = {
     enable = true;
     settings = {
       disabled_keys = {
-        "<Down>" = [
-          ""
-        ];
-        "<Left>" = [
-          ""
-        ];
-        "<Right>" = [
-          ""
-        ];
-        "<Up>" = [
-          ""
-        ];
+        "<Down>" = lib.nixvim.emptyTable;
+        "<Left>" = lib.nixvim.emptyTable;
+        "<Right>" = lib.nixvim.emptyTable;
+        "<Up>" = lib.nixvim.emptyTable;
       };
     };
   };
